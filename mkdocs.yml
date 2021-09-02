@@ -1,5 +1,6 @@
 site_name: docs_airlattice 
 nav:
-    - Node: index.md
-    - Message: message.md
+    - Home: index.md
+    - Nodes List: nodelist.md
+    - Messages List: message.md
 theme: readthedocs
