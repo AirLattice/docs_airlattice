@@ -1,4 +1,4 @@
-# ROS node list
+# ROS list
 
 * /carla_ego_vehicle_ego_vehicle
 * /carla_manual_control_ego_vehicle
@@ -7,7 +7,7 @@
 * /initialpose_relay
 * /rosout
 
-## Node [/carla_ego_vehicle_ego_vehicle]
+## [/carla_ego_vehicle_ego_vehicle]
 
 #### Publications
 * /rosout [rosgraph_msgs/Log]
@@ -20,7 +20,7 @@
 * /carla_ego_vehicle_ego_vehicle/get_loggers
 * /carla_ego_vehicle_ego_vehicle/set_logger_level
 
-## Node [/carla_manual_control_ego_vehicle]
+## [/carla_manual_control_ego_vehicle]
 #### Publications
 * /carla/ego_vehicle/enable_autopilot [std_msgs/Bool]
 * /carla/ego_vehicle/vehicle_control_cmd_manual [carla_msgs/CarlaEgoVehicleControl]
@@ -44,7 +44,7 @@
 * /carla_manual_control_ego_vehicle/get_loggers
 * /carla_manual_control_ego_vehicle/set_logger_level
 
-## Node [/carla_ros_bridge]
+## [/carla_ros_bridge]
 #### Publications
 * /carla/actor_list [carla_msgs/CarlaActorList]
 * /carla/ego_vehicle/camera/rgb/front/camera_info [sensor_msgs/CameraInfo]
@@ -81,7 +81,7 @@
 * /carla_ros_bridge/get_loggers
 * /carla_ros_bridge/set_logger_level
 
-## Node [/goal_relay]
+## [/goal_relay]
 #### Publications
 * /rosout [rosgraph_msgs/Log]
 
@@ -93,7 +93,7 @@
 * /goal_relay/get_loggers
 * /goal_relay/set_logger_level
 
-## Node [/initialpose_relay]
+## [/initialpose_relay]
 #### Publications
 * /rosout [rosgraph_msgs/Log]
 
@@ -105,7 +105,7 @@
 * /initialpose_relay/get_loggers
 * /initialpose_relay/set_logger_level
 
-## Node [/rosout]
+## [/rosout]
 #### Publications
 * /rosout_agg [rosgraph_msgs/Log]
 
