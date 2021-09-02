@@ -1,0 +1,4 @@
+site_name: docs_airlattice 
+nav:
+    - Home: index.md
+theme: readthedocs
