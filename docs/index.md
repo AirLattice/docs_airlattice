@@ -9,14 +9,14 @@
 
 ## Node [/carla_ego_vehicle_ego_vehicle]
 
-### ### Publications
+### Publications
 * /rosout [rosgraph_msgs/Log]
 
-### ### Subscriptions
+### Subscriptions
 * /carla/ego_vehicle/initialpose [unknown type]
 * /clock [rosgraph_msgs/Clock]
 
-### ### Services
+### Services
 * /carla_ego_vehicle_ego_vehicle/get_loggers
 * /carla_ego_vehicle_ego_vehicle/set_logger_level
 
