@@ -9,25 +9,25 @@
 
 ## Node [/carla_ego_vehicle_ego_vehicle]
 
-### Publications
+#### Publications
 * /rosout [rosgraph_msgs/Log]
 
-### Subscriptions
+#### Subscriptions
 * /carla/ego_vehicle/initialpose [unknown type]
 * /clock [rosgraph_msgs/Clock]
 
-### Services
+#### Services
 * /carla_ego_vehicle_ego_vehicle/get_loggers
 * /carla_ego_vehicle_ego_vehicle/set_logger_level
 
 ## Node [/carla_manual_control_ego_vehicle]
-### Publications
+#### Publications
 * /carla/ego_vehicle/enable_autopilot [std_msgs/Bool]
 * /carla/ego_vehicle/vehicle_control_cmd_manual [carla_msgs/CarlaEgoVehicleControl]
 * /carla/ego_vehicle/vehicle_control_manual_override [std_msgs/Bool]
 * /rosout [rosgraph_msgs/Log]
 
-### Subscriptions
+#### Subscriptions
 * /carla/ego_vehicle/camera/rgb/view/image_color [sensor_msgs/Image]
 * /carla/ego_vehicle/collision [unknown type]
 * /carla/ego_vehicle/gnss/gnss1/fix [sensor_msgs/NavSatFix]
@@ -40,12 +40,12 @@
 * /tf [tf2_msgs/TFMessage]
 * /tf_static [unknown type]
 
-### Services
+#### Services
 * /carla_manual_control_ego_vehicle/get_loggers
 * /carla_manual_control_ego_vehicle/set_logger_level
 
 ## Node [/carla_ros_bridge]
-### Publications
+#### Publications
 * /carla/actor_list [carla_msgs/CarlaActorList]
 * /carla/ego_vehicle/camera/rgb/front/camera_info [sensor_msgs/CameraInfo]
 * /carla/ego_vehicle/camera/rgb/front/image_color [sensor_msgs/Image]
@@ -68,7 +68,7 @@
 * /rosout [rosgraph_msgs/Log]
  */tf [tf2_msgs/TFMessage]
 
-### Subscriptions
+#### Subscriptions
 * /carla/debug_marker [unknown type]
 * /carla/ego_vehicle/enable_autopilot [std_msgs/Bool]
 * /carla/ego_vehicle/twist_cmd [unknown type]
@@ -77,42 +77,42 @@
 * /carla/ego_vehicle/vehicle_control_manual_override [std_msgs/Bool]
 * /clock [rosgraph_msgs/Clock]
 
-### Services
+#### Services
 * /carla_ros_bridge/get_loggers
 * /carla_ros_bridge/set_logger_level
 
 ## Node [/goal_relay]
-### Publications
+#### Publications
 * /rosout [rosgraph_msgs/Log]
 
-### Subscriptions
+#### Subscriptions
 * /clock [rosgraph_msgs/Clock]
 * /move_base_simple/goal [unknown type]
 
-### Services
+#### Services
 * /goal_relay/get_loggers
 * /goal_relay/set_logger_level
 
 ## Node [/initialpose_relay]
-### Publications
+#### Publications
 * /rosout [rosgraph_msgs/Log]
 
-### Subscriptions
+#### Subscriptions
 * /clock [rosgraph_msgs/Clock]
 * /initialpose [unknown type]
 
-### Services
+#### Services
 * /initialpose_relay/get_loggers
 * /initialpose_relay/set_logger_level
 
 ## Node [/rosout]
-### Publications
+#### Publications
 * /rosout_agg [rosgraph_msgs/Log]
 
-### Subscriptions
+#### Subscriptions
 * /clock [rosgraph_msgs/Clock]
 * /rosout [rosgraph_msgs/Log]
 
-### Services
+#### Services
 * /rosout/get_loggers
 * /rosout/set_logger_level
